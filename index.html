@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<title>����Andie��һ��</title>
+	<meta charset=utf-8" />
+	<title>关于Andie</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
 </head>
 
 <body>
-	<h1>Hello, Github Project Page!</h1>
-	<p>This is a test page.</p>
+	<div class="mainTitle">
+
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<nav id="contentAffix">
+					<ul>
+						<li>目标职位</li>
+						<li>教育情况</li>
+						<li>工作经验</li>
+						<li>技能评价</li>
+					</ul>	
+				</nav>
+			</div>
+
+			<div class="col-md-6">
+				
+			</div>
+
+			<div class="col-md-3">
+				<div class="gravatar"><!-- css实现圆形头像？ --></div>
+				<h1>楚昂迪</h1>
+				<ul id="intros">
+					<li>Web后端开发</li>
+					<li>·</li>
+					<li>Java</li>
+				</ul>
+				<ul id="contacts">
+					<li>E-mail: angdichu@gmail.com</li>
+					<li>现居地: 珠海·广东</li>
+					<li>毕业于: 华中科技大学·生物信息技术基地班08'</li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+
+	</div>
+    
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+		$('#contentAffix').affix({
+		    offset: {
+		      top: 100
+		    , bottom: function () {
+		        return (this.bottom = $('#footer').outerHeight(true))
+		      }
+		    }
+		  })
+    </script>
 </body>
 </html>
