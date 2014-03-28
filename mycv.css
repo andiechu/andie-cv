@@ -8,6 +8,8 @@ h1 {
 	text-align: center;
 }
 
+
+
 .gravatar {
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
@@ -15,27 +17,11 @@ h1 {
 	background-position:center;
 	margin-right: 55px;
 	margin-left: 55px;
+	margin-bottom: 55px;
 }
 
-.div-intro {
-	padding-bottom: 20px;
-}
-
-#intros {
-	width: 201px;
-	position: relative;
-	left: 50%;
+.intro {
 	text-align: center;
-	list-style-type: none;
-	padding-left: 0px;
-	margin-bottom: 30px;	
-}
-
-#intros > li {
-	float: left;
-	padding: 0 5px;
-	position: relative;
-	right: 50%;
 }
 
 #contacts {
