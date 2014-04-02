@@ -1,3 +1,8 @@
+body, h1, h2, h3, h4 {
+
+	font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; 
+}
+
 .container {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -8,7 +13,14 @@ h1 {
 	text-align: center;
 }
 
+#contentAffix a {
+	color: #31152B;
+}
 
+#contentAffix .active {
+	font-weight: bold;
+	background-color: #E6B098;
+}
 
 .gravatar {
 	-webkit-border-radius: 50em;

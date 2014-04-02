@@ -8,17 +8,17 @@
     
 </head>
 
-<body>
-	<div class="mainTitle">
-
-	</div>
+<body data-spy="scroll" data-target="#contentAffix" data-offset="0">
+	<div id="top"></div>
 
 	<div class="container">
 		<div class="row">
+
+			<!-- nav -->
 			<div class="col-md-2">
-				<nav data-spy="affix" data-offset-top="5" class="contentAffix">
+				<nav id="contentAffix" data-spy="affix" data-offset-top="0">
 					<ul class="nav">
-						<li><a href="#pps-tag">目标职位</a></li>
+						<li><a href="#top">自我评价</a></li>
 						<li><a href="#edu-tag">教育情况</a></li>
 						<li><a href="#exp-tag">工作经验</a></li>
 						<li><a href="#skl-tag">技能评价</a></li>
@@ -27,29 +27,50 @@
 				</nav>
 			</div>
 
+			<!-- main -->
 			<div class="col-md-7">
-				<div data-spy="scroll" data-target="#contentAffix">
-					<h2 id="pps-tag">目标职位</h2>
-					<p>互联网开发工程师</p>
+				<div>
+					<h2 id="psn-tag">自我评价</h2>
+					<p>一个刚刚从零基础入行一年的程序员，有一颗对代码与创造的热爱的心，和对新知识旺盛的求知欲与好奇心。主要语言：Java。</p>
 					
 					<h2 id="edu-tag">教育情况</h2>
-					<p>
-						<ul>
-							<li>
-								<h3>2008.09-2012.07</h3>
-								<p>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</p>
-							</li>
-						</ul>
-					</p>
+					<ul>
+						<li>
+							<h3>2008.09-2012.07</h3>
+							<p>华中科技大学：生物信息技术基地班/本科学士</p>
+						</li>
+					</ul>
 
 					<h2 id="exp-tag">工作经验</h2>
-					<p></p>
+					<ul>
+						<li>
+							<h3>2013.05 - 2014.05 珠海市魅族科技有限公司：Java助理工程师</h3>
+							<p>参与公司内部数据统计展示系统的后端开发，使用Java语言，在Spring+Mybatis+MySQL开发环境下，实现数据的定时抓取、汇集展示、业务预警、权限管理与邮件申请，并集成后台管理的功能。前期配合前端工程师使用Ext JS进行前端开发，近期配合前端工程师对系统进行JQuery重构。整个项目的前期跟随资深工程师进行学习、写简单的接口，后期进行需求的独立开发，并开始负责项目的推进。</p>
+						</li>
+						<li>
+							<h3>2013.02 - 2013.05 北京瑞光极远数码科技有限公司：软件工程师</h3>
+							<p>从零自学Java SE，并使用Java独立编写完成桌面TCP/UDP实时信息收发软件，可实现多服务器、多客户端同时操作，并可写入与读取数据库；参与公司多业务光纤接入设备的网管软件开发；参与软件测试、和测试文档的撰写工作。</p>
+						</li>
+						<li>
+							<h3>2012.08 - 2013.01 爱德曼国际集团——帕格索斯传播机构 ：数字公关实习生</h3>
+							<p>负责某国际一线手机品牌的微博/人人公共主页/优酷空间的数据分析与舆论监控，并做每周的统计报告；协助撰写微博内容，并负责建立与维护公司的微博内容信息库；参与数字公关组所有项目的讨论与公关策划</p>
+						</li>
+					</ul>
+
+
 
 					<h2 id="skl-tag">技能评价</h2>
-					<p></p>	
+					<ul>
+						<li>
+							<h3>英语</h3>
+							<p>较优秀，曾经参与过留学申请，可熟练阅读英文技术文档。</p>
+						</li>
+						
+					</ul>	
 				</div>	
 			</div>
-
+			
+			<!-- info -->
 			<div class="col-md-3">
 				<div class="gravatar" style="background:url(gravatar-small.jpg) no-repeat center center; height: 150px; width: 150px;">
 					<img src="gravatar-small.jpg" style="opacity: 0;">
@@ -63,7 +84,7 @@
 						<li>(+86)1866 6972 771</li>
 						<li>angdichu@gmail.com</li>
 						<li>珠海 · 广东 · 中国</li>
-						<li></li>
+						
 					</ul>
 			
 				
@@ -77,6 +98,10 @@
     
     <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
-
+	<script type="text/javascript">
+		$('#myScrollspy').on('activate.bs.scrollspy', function () {
+  			alert();
+		})
+	</script>
 </body>
 </html>
