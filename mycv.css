@@ -35,8 +35,8 @@ h1 {
 	-moz-border-radius: 50em;
 	border-radius: 50em;
 	background-position:center;
-	margin-right: 55px;
-	margin-left: 55px;
+	width: 50em;
+	margin: 0 auto;
 	margin-bottom: 35px;
 }
 
