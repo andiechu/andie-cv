@@ -1,7 +1,7 @@
 Angdi Chu
 =========
 
-(To see the full CV.)[http://andiechu.com/andie-cv]
+[To see the full CV.](http://andiechu.com/andie-cv)
 
 Introduction
 ---------
