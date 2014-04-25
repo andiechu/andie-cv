@@ -1,7 +1,9 @@
 Angdi Chu
 =========
 
-Introduce
+(To see the full CV.)[http://andiechu.com/andie-cv]
+
+Introduction
 ---------
 Web backend developer. Working language: Java.
 
