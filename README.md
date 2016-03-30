@@ -1,50 +1,74 @@
 # Angdi Chu
 
-1. [To see the full CV](http://andiechu.com/andie-cv) **[ATTENTION: it's in Chinese! ]**
-2. 中文 Markdown 版本请往下拉
+中文 Markdown 版本见下方
 
 ## Introduction
 
-iOS developer now. Ex web backend developer (in Java).
+Product Manager, writing code after work. Used to be a web backend developer (in Java).
 
-## Working Experience
+Main coding language now: *Python* & *Java*.
 
-### 03/2015 - Now AS iOS Developer Working for some personal iOS projects
+## Working Experience - As PM
+
+### 07/2015 - Now: Ctrip.com International, Ltd.
+
+* Wechat / QQ Offical Account (in-app mini application)
+* Social marketing activities' mobile product, exp. HTML 5 sale application
+* Social marketing platform
+* Android TV application
+
+## Working Experience - As Coder
+
+### 03/2016 - Now: Part-time Freelance Coder
+
+* Keep learning computer science
+* Start writing code in Python 
+
+
+### 03/2015 - Now: As iOS Developer Working for some personal iOS projects
 
 * Adding location feature to a social app, which one can locate himself/herself and search for shop he/she is currently in. Learned how to use third-party frameworks and SDKs; got drilled into Core Location and URL/networking programming.
 
-### 05/2013 - 03/2015 AS Backend Engineer Meizu Telecom Equipment Co., Ltd.
+### 05/2013 - 03/2015: As Backend Engineer in Meizu Telecom Equipment Co., Ltd.
 
 * Working for the backend of new data platform - DW system. Learned how to design databases and business logic. 
 * Working for the backend and frontend of the BI system. Learned the basic skills of J2EE developing and techniques of databases. Used Spring + Mybatis + MySQL frameworks, Redis's basic operations; Also, Ext JS 4 as frontend framework.
 
 ## Contacts
 
-E-mail: angdichu@gmail.com
-
-Addr: Zhuhai, Guangdong Province, PR China
+* E-mail: angdichu@gmail.com
+* Addr: Shanghai, PR China
 
 -----------------------------------------------------------------------
 
 ## 联系方式
 
 * E-mail: angdichu@gmail.com
-* 联系电话: (0086)1866-6972-771
+* 联系电话: (+86)1866-6972-771
 
 ## 个人信息
 
 * 教育状况: 本科 / 华中科技大学 / 生物信息技术基地班 / 2012 届 
-* 工作年限: 2 年
-* 期望职位: iOS 开发
-* 期望城市: 广州 / 深圳 / 成都
+* 工作年限: 3 年
+* 期望职位: （高级）产品经理 
+* 期望城市: 广州 / 深圳 / 港澳英美德
 
 ## 工作经历
 
-### 2015.03 - 目前 自己做一些 iOS 项目
+### 2015.07 - 目前 携程网络技术有限公司：市场部无线产品经理
 
-* 为 Coding.net 的 iOS 客户端添加“当前位置”功能，类似于朋友圈、微博中的定位功能：通过此项目的练习，学习到了 iOS 商业 app 的结构、第三方，以及 CocoaPods 等第三方工具的使用方式（具体请见 [我 Blog 的相关文章](http://andiechu.com/2015-03-06/为Coding-iOS-客户端添加-LBS-定位功能/) 以及 [我在 Coding 上此项目的代码](https://coding.net/andiechu/Coding-iOS.git)）
+* 微信公众号（服务号）、手机 QQ 公众号：
+	* **基本功能及产品整体规划**
+	* **公众号精准营销系统**：与公司系统用户画像打通，可根据用户属性与过往其他平台的历史动作推荐不同内容
+	* **公众号管理后台**：可对公众号进行功能配置、营销活动配置及数据查看  
+	* **微信卡券**：普通卡券；朋友的券；接入携程会员权限；机票卡券接入机票流程
+	* **公众号内活动类产品**：活动聚合 HTML5 页、一元众筹、首单返现活动等
+	
+* 携程安卓 TV app 
 
-* 利用豆瓣 SDK 写一个豆瓣 iOS 客户端：完成了登录部分（app 启动时判断是否授权登录，未授权则打开一个有 web view 的页面进行授权），以及部分“广播”显示在 table view 中（可显示头像、用户昵称、广播的文字、发布时间、赞与评论的数量、广播图片）。虽然未完成，但是学习了怎样进行 URL 的网络通信、解析 JSON；还进一步巩固了布局与界面的设计和实现
+### 2015.03 - 目前 业余爱好 / 兼职开发
+
+* Python / iOS
 
 ### 2013.05 - 2013.04 珠海市魅族科技有限公司：Java 助理工程师
 * 应用中心的搜索平台（2014年11月中旬至今）：协助主程进行搜索平台的后端开发。将本地应用、游戏、个性化数据库、第三方提供的搜索数据缓存到 Redis 中并对其实现进行性能优化。
@@ -63,7 +87,6 @@ Addr: Zhuhai, Guangdong Province, PR China
 
 ## 项目经验
 
-* 自学 iOS 时做过项目：Coding.net 客户端添加定位功能（进行中）；豆瓣（已搁置）
 * 手机商城的搜索平台：开发
 * 魅族大数据平台中 DW 系统：web 后端开发
 * DW前身之—— BI 数据统计展示系统：web 后端开发，兼前端开发、测试
