@@ -1,13 +1,3 @@
-Angdi Chu
-=========
+This is an **OLD** version Resume. 
 
-Introduce
----------
-Web backend developer. Working language: Java.
-
-
-Contacts
----------
-E-mail: angdichu@gmail.com
-
-Addr: Zhuhai, Guangdong Province, PR China
+The latest version, please refer to the **README file** of the **'master' branch**.
